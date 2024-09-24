@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { TbLogout2 } from "react-icons/tb";
 import axios from "axios";
 import Cookies from "js-cookie";
+import toast from "react-hot-toast";
  function Logout() {
 
   const [loading, setLoading] = useState(false);
